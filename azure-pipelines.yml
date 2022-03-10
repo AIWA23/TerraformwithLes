@@ -21,7 +21,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'OngoingADO'
+        containerRegistry: 'TerraformARM'
         repository: 'aiwa23/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
