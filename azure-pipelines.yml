@@ -22,7 +22,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'DockerHub'
-        repository: 'aiwa23/weatherapi'
+        repository: 'aiwa23/weatherapi1'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: 
