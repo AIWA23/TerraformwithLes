@@ -20,7 +20,7 @@ namespace weatherapi.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            //test change
+            //test change new changes
             _logger = logger;
         }
 
