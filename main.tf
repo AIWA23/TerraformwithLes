@@ -17,7 +17,7 @@ variable "imagebuild" {
 }
 
 resource "azurerm_resource_group" "tf_ResourceGroup" {
-  name = "myterraformaiwa"
+  name = "RealDevOps"
   location = "East US"
 }
 
