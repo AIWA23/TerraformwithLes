@@ -16,10 +16,8 @@ variable "imagebuild" {
   description = "Latest Image Build"
 }
 
-
-
 resource "azurerm_resource_group" "tf_ResourceGroup" {
-  name = "Terraform"
+  name = "myterraformaiwa"
   location = "East US"
 }
 
