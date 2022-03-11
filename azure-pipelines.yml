@@ -21,8 +21,8 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'DockerHub'
-        repository: 'aiwa23/weatherapi1'
+        containerRegistry: ''
+        repository: 'weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: 
