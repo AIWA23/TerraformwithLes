@@ -32,7 +32,7 @@ resource "azurerm_container_group" "ContainerInstance" {
 
   container {
       name            = "weatherapi"
-      image           = "aiwa23/weatherapi"
+      image           = "weatherapi"
         cpu             = "1"
         memory          = "1"
 
