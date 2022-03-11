@@ -21,7 +21,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: ''
+        containerRegistry: 'ACR'
         repository: 'weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
