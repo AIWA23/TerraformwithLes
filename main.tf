@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "tf_ResourceGroup" {
 }
 
 resource "azurerm_container_group" "ContainerInstance" {
-  name                      = "weatherapi"
+  name                      = "myweatherapi"
   location                  = azurerm_resource_group.tf_ResourceGroup.location
   resource_group_name       = azurerm_resource_group.tf_ResourceGroup.name
 
